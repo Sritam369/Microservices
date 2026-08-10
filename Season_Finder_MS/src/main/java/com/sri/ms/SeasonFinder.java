@@ -23,13 +23,13 @@ public class SeasonFinder {
 		int month = ldt.getMonthValue();
 		String seasonName = null;
 		if(month>=7 && month<=10) {
-			seasonName = "rainy";
+			seasonName = "rainy season";
 		}
 		else if(month>=3 && month<=6) {
-			seasonName = "summer";
+			seasonName = "summer season";
 		}
 		else {
-			seasonName = "winter";
+			seasonName = "winter season";
 		}
 		
 		return ResponseEntity.ok(seasonName);
