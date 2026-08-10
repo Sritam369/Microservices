@@ -15,6 +15,6 @@ public class ConsumerShoppingAPI {
 	
 	@GetMapping("details")
 	public String displayProducerDetails() {
-		return "Durga puja shopping for family "+consumer.fetchProducerDetails();
+		return "Durga puja 2026 shopping for family "+consumer.fetchProducerDetails();
 	}
 }
